@@ -1,0 +1,159 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+    color: #794645;
+    margin-top: 12px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    height: 160px;
+    margin: 0 auto;
+    /* background: #ccc; */
+}
+
+header>h1 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+
+header>img {
+    float: right;
+    margin-right: 30px;
+    margin-top: 55px;
+}
+
+#main_visual {
+    position: relative;
+    background: url('../images/메인이미지\ 박스.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main_visual>img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+
+#main_text {
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#main_text>.line {
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#main_text>p {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 36px;
+    margin-bottom: 120px;
+}
+
+.title {
+    /* margin: 0 auto; */
+    background: url('../images/Layer\ 3.png');
+    background-position: center;
+    height: 127px;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 130px;
+    /* outline: 1px solid red; */
+    margin-bottom: 80px;
+}
+
+#invitation p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 95px;
+}
+
+#call {
+    /* position: relative; */
+    margin-top: 160px;
+    background: url('../images/전화박스.png');
+    height: 250px;
+    overflow: hidden;
+}
+#call > .tel > p {
+    /* position: relative; */
+    font-size: 36px;
+    color: white;
+    float: left;
+    line-height: 70px;
+    padding-left: 30px;
+    /* display: inline; */
+}
+#call > .tel {
+    position: absolute;
+    margin-top: 40px;
+    width: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#call > .tel:last-child {
+    margin-top: 140px;
+}
+#gallery {
+    margin-top: 112px;
+    width: 100%;
+}
+#gallery > .gal_img {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: hidden;
+}
+#gallery img {
+    float: left;
+    width: calc(100% / 3);
+}
+#location {
+    margin-top: 112px;
+    /* outline: 1px solid green; */
+}
+#location > .gal_img {
+    overflow: hidden;
+}
+
+footer {
+    position: relative;
+    width: 100%; height: 250px;
+    background: #4B4444;
+}
+footer > h4 {
+    color: white;
+    padding-top: 80px;
+}
